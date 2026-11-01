@@ -1,6 +1,8 @@
 # AI-Assisted Data Science with BigQuery
 
 [![CI Pipeline](https://github.com/samirlevate8788-creator/bigquery-data-science-notebooks/actions/workflows/ci.yml/badge.svg)](https://github.com/samirlevate8788-creator/bigquery-data-science-notebooks/actions)
+[![Security Scan](https://github.com/samirlevate8788-creator/bigquery-data-science-notebooks/actions/workflows/security-scan.yml/badge.svg)](https://github.com/samirlevate8788-creator/bigquery-data-science-notebooks/actions)
+[![Deploy Pages](https://github.com/samirlevate8788-creator/bigquery-data-science-notebooks/actions/workflows/pages.yml/badge.svg)](https://samirlevate8788-creator.github.io/bigquery-data-science-notebooks/)
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Google Cloud](https://img.shields.io/badge/Google%20Cloud-BigQuery%20ML-4285F4?logo=google-cloud&logoColor=white)](https://cloud.google.com/bigquery)
 [![Gemini](https://img.shields.io/badge/Gemini-2.5%20Flash-8E75C2?logo=google&logoColor=white)](https://ai.google.dev/)
