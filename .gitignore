@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# Credentials & Keys
+*.json
+!mcp.json
+!plugin.json
+service_account.json
+credentials.json
+
+# OS files
+.DS_Store
+Thumbs.db

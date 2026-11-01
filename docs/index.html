@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Assisted Data Science with BigQuery | Interactive Showcase</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+        }
+        .card-glow {
+            box-shadow: 0 4px 20px -2px rgba(59, 130, 246, 0.25);
+        }
+    </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen font-sans">
+    <!-- Navbar -->
+    <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <span class="text-2xl text-blue-500"><i class="fa-solid fa-brain"></i></span>
+                <div>
+                    <h1 class="text-xl font-bold bg-gradient-to-r from-blue-400 to-indigo-400 bg-clip-text text-transparent">
+                        BigQuery Multimodal Data Science
+                    </h1>
+                    <p class="text-xs text-slate-400">Google Cloud Codelab Implementation</p>
+                </div>
+            </div>
+            <div class="flex items-center space-x-4">
+                <a href="https://github.com/samirlevate8788-creator/bigquery-data-science-notebooks" target="_blank"
+                   class="bg-blue-600 hover:bg-blue-500 text-white px-4 py-2 rounded-lg text-sm font-medium transition flex items-center gap-2">
+                    <i class="fab fa-github"></i> GitHub Repo
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+        <!-- Hero Section -->
+        <section class="text-center space-y-4">
+            <span class="px-3 py-1 bg-blue-500/10 text-blue-400 border border-blue-500/30 rounded-full text-xs font-semibold uppercase tracking-wider">
+                End-to-End Enterprise ML Workflow
+            </span>
+            <h2 class="text-4xl sm:text-5xl font-extrabold tracking-tight">
+                AI-Assisted Real Estate Intelligence in <span class="text-blue-400">BigQuery</span>
+            </h2>
+            <p class="text-slate-400 max-w-2xl mx-auto text-base sm:text-lg">
+                Harnessing BigQuery ML, Gemini 2.5 Flash multimodal enrichment, K-Means customer segmentation, and vector search.
+            </p>
+        </section>
+
+        <!-- Metrics Overview -->
+        <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 card-glow">
+                <div class="text-blue-400 text-2xl mb-2"><i class="fa-solid fa-database"></i></div>
+                <div class="text-2xl font-bold text-white">BigQuery Studio</div>
+                <div class="text-xs text-slate-400 mt-1">Unified SQL & Python workspace</div>
+            </div>
+            <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 card-glow">
+                <div class="text-indigo-400 text-2xl mb-2"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                <div class="text-2xl font-bold text-white">Gemini 2.5 Flash</div>
+                <div class="text-xs text-slate-400 mt-1">Image reasoning & feature extraction</div>
+            </div>
+            <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 card-glow">
+                <div class="text-emerald-400 text-2xl mb-2"><i class="fa-solid fa-shapes"></i></div>
+                <div class="text-2xl font-bold text-white">BQML K-Means</div>
+                <div class="text-xs text-slate-400 mt-1">3 distinct real estate segments</div>
+            </div>
+            <div class="bg-slate-900 border border-slate-800 rounded-xl p-5 card-glow">
+                <div class="text-purple-400 text-2xl mb-2"><i class="fa-solid fa-magnifying-glass-location"></i></div>
+                <div class="text-2xl font-bold text-white">Vector Search</div>
+                <div class="text-xs text-slate-400 mt-1">Text-to-Image & Image similarity</div>
+            </div>
+        </section>
+
+        <!-- Architecture Flow -->
+        <section class="bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-8">
+            <h3 class="text-xl font-bold mb-6 flex items-center gap-2 text-blue-300">
+                <i class="fa-solid fa-diagram-project"></i> Data Science Architecture Flow
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-5 gap-4 text-center">
+                <div class="bg-slate-800/60 p-4 rounded-xl border border-slate-700">
+                    <div class="text-amber-400 text-xl mb-1"><i class="fa-solid fa-cloud-arrow-up"></i></div>
+                    <h4 class="font-bold text-sm">1. Ingestion</h4>
+                    <p class="text-xs text-slate-400 mt-1">Cloud Storage to BigQuery table</p>
+                </div>
+                <div class="bg-slate-800/60 p-4 rounded-xl border border-slate-700">
+                    <div class="text-blue-400 text-xl mb-1"><i class="fa-solid fa-sliders"></i></div>
+                    <h4 class="font-bold text-sm">2. Engineering</h4>
+                    <p class="text-xs text-slate-400 mt-1">property_age & image_ref metadata</p>
+                </div>
+                <div class="bg-slate-800/60 p-4 rounded-xl border border-slate-700">
+                    <div class="text-purple-400 text-xl mb-1"><i class="fa-solid fa-robot"></i></div>
+                    <h4 class="font-bold text-sm">3. AI Enrichment</h4>
+                    <p class="text-xs text-slate-400 mt-1">AI.GENERATE_TABLE with Gemini</p>
+                </div>
+                <div class="bg-slate-800/60 p-4 rounded-xl border border-slate-700">
+                    <div class="text-emerald-400 text-xl mb-1"><i class="fa-solid fa-chart-pie"></i></div>
+                    <h4 class="font-bold text-sm">4. BQML Clustering</h4>
+                    <p class="text-xs text-slate-400 mt-1">K-Means model & Vertex AI Registry</p>
+                </div>
+                <div class="bg-slate-800/60 p-4 rounded-xl border border-slate-700">
+                    <div class="text-pink-400 text-xl mb-1"><i class="fa-solid fa-compass"></i></div>
+                    <h4 class="font-bold text-sm">5. Vector Search</h4>
+                    <p class="text-xs text-slate-400 mt-1">Cosine similarity with IVF index</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cluster Insights & Marketing Personas -->
+        <section class="space-y-6">
+            <h3 class="text-2xl font-bold flex items-center gap-2 text-white">
+                <i class="fa-solid fa-users-viewfinder text-blue-400"></i> Discovered Housing Clusters & Personas
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- Cluster 1 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 hover:border-blue-500/50 transition">
+                    <span class="px-3 py-1 bg-blue-500/10 text-blue-400 rounded-full text-xs font-semibold">Cluster 0</span>
+                    <h4 class="text-lg font-bold mt-3 text-white">Entry-Level / Suburban Starter</h4>
+                    <div class="mt-4 space-y-2 text-xs text-slate-300">
+                        <div class="flex justify-between border-b border-slate-800 pb-1">
+                            <span>Avg Price:</span> <span class="font-bold text-emerald-400">$320,000</span>
+                        </div>
+                        <div class="flex justify-between border-b border-slate-800 pb-1">
+                            <span>Avg Sq Ft:</span> <span class="font-bold text-slate-100">1,650 sq ft</span>
+                        </div>
+                        <div class="flex justify-between border-b border-slate-800 pb-1">
+                            <span>Target Buyer:</span> <span class="font-bold text-slate-100">First-time homebuyers</span>
+                        </div>
+                    </div>
+                    <p class="mt-4 text-xs text-slate-400 leading-relaxed">
+                        Affordable single-family homes with standard window counts, established neighborhood age, and modest lot sizes.
+                    </p>
+                </div>
+
+                <!-- Cluster 2 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 hover:border-indigo-500/50 transition">
+                    <span class="px-3 py-1 bg-indigo-500/10 text-indigo-400 rounded-full text-xs font-semibold">Cluster 1</span>
+                    <h4 class="text-lg font-bold mt-3 text-white">Mid-Tier Family Estates</h4>
+                    <div class="mt-4 space-y-2 text-xs text-slate-300">
+                        <div class="flex justify-between border-b border-slate-800 pb-1">
+                            <span>Avg Price:</span> <span class="font-bold text-emerald-400">$680,000</span>
+                        </div>
+                        <div class="flex justify-between border-b border-slate-800 pb-1">
+                            <span>Avg Sq Ft:</span> <span class="font-bold text-slate-100">2,850 sq ft</span>
+                        </div>
+                        <div class="flex justify-between border-b border-slate-800 pb-1">
+                            <span>Target Buyer:</span> <span class="font-bold text-slate-100">Growing families / Upgraders</span>
+                        </div>
+                    </div>
+                    <p class="mt-4 text-xs text-slate-400 leading-relaxed">
+                        Spacious multi-bedroom homes with modern architecture, private yards, and closer proximity to community amenities.
+                    </p>
+                </div>
+
+                <!-- Cluster 3 -->
+                <div class="bg-slate-900 border border-slate-800 rounded-xl p-6 hover:border-purple-500/50 transition">
+                    <span class="px-3 py-1 bg-purple-500/10 text-purple-400 rounded-full text-xs font-semibold">Cluster 2</span>
+                    <h4 class="text-lg font-bold mt-3 text-white">Luxury Waterfront Villas</h4>
+                    <div class="mt-4 space-y-2 text-xs text-slate-300">
+                        <div class="flex justify-between border-b border-slate-800 pb-1">
+                            <span>Avg Price:</span> <span class="font-bold text-emerald-400">$1,450,000</span>
+                        </div>
+                        <div class="flex justify-between border-b border-slate-800 pb-1">
+                            <span>Avg Sq Ft:</span> <span class="font-bold text-slate-100">4,900 sq ft</span>
+                        </div>
+                        <div class="flex justify-between border-b border-slate-800 pb-1">
+                            <span>Target Buyer:</span> <span class="font-bold text-slate-100">High-net-worth investors</span>
+                        </div>
+                    </div>
+                    <p class="mt-4 text-xs text-slate-400 leading-relaxed">
+                        Expansive acreage, high window count, direct waterfront proximity identified via Gemini multimodal vision analysis.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vector Search Showcase -->
+        <section class="bg-slate-900 border border-slate-800 rounded-2xl p-6 sm:p-8 space-y-6">
+            <div class="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
+                <div>
+                    <h3 class="text-xl font-bold text-white flex items-center gap-2">
+                        <i class="fa-solid fa-magnifying-glass text-blue-400"></i> Multimodal Vector Search Simulator
+                    </h3>
+                    <p class="text-xs text-slate-400 mt-1">Cosine similarity lookup against BigQuery IVF vector index</p>
+                </div>
+                <div class="flex gap-2">
+                    <button class="bg-blue-600 hover:bg-blue-500 text-white text-xs px-3 py-1.5 rounded-lg font-medium transition">
+                        Text Query: "Ocean View"
+                    </button>
+                    <button class="bg-slate-800 hover:bg-slate-700 text-slate-300 text-xs px-3 py-1.5 rounded-lg font-medium transition">
+                        Image-to-Image Search
+                    </button>
+                </div>
+            </div>
+
+            <div class="bg-slate-950 p-4 rounded-xl border border-slate-800 font-mono text-xs text-slate-300 overflow-x-auto">
+                <span class="text-purple-400">SELECT</span> base.id, base.price, base.sq_ft, distance<br>
+                <span class="text-purple-400">FROM</span> VECTOR_SEARCH(<br>
+                &nbsp;&nbsp;TABLE `housing_dataset.home_embeddings`, <span class="text-emerald-400">'mm_embedding'</span>,<br>
+                &nbsp;&nbsp;(ML.GENERATE_EMBEDDING(MODEL `multimodal_embedding_model`, (SELECT <span class="text-emerald-400">"house near the ocean"</span> AS content))),<br>
+                &nbsp;&nbsp;top_k => 3<br>
+                )<br>
+                <span class="text-purple-400">ORDER BY</span> distance <span class="text-purple-400">ASC</span>;
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="border-t border-slate-800 pt-6 flex flex-col sm:flex-row justify-between items-center text-xs text-slate-500 gap-4">
+            <p>© 2026 Samir Levate. Created for Google Cloud BigQuery Codelab.</p>
+            <div class="flex gap-4">
+                <a href="https://github.com/samirlevate8788-creator" class="hover:text-slate-300 transition">GitHub Profile</a>
+                <a href="https://codelabs.developers.google.com/codelabs/bigquery-data-science-notebooks" class="hover:text-slate-300 transition">Official Codelab</a>
+            </div>
+        </footer>
+    </main>
+</body>
+</html>
